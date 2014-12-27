@@ -1,0 +1,9 @@
+Package: me.funso.dynamicpasscode
+Name: Dynamic Passcode
+Depends: mobilesubstrate,preferenceloader
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome tweak for dynamic passcode!
+Maintainer: SunYeop Lee
+Author: SunYeop Lee
+Section: Tweaks
