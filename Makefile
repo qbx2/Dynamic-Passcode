@@ -4,6 +4,9 @@ include theos/makefiles/common.mk
 TWEAK_NAME = DynamicPasscode
 DynamicPasscode_FILES = Tweak.xm
 
+LDFLAGS += -lIOKit -L$(THEOS_PROJECT_DIR)/IOKit/
+export LDFLAGS
+
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 SUBPROJECTS += prefbundle

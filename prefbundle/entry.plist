@@ -3,7 +3,7 @@
 	bundle = DynamicPasscodePref;
 	cell = PSLinkCell;
 	detail = DynamicPasscodePrefListController;
-	icon = DynamicPasscodePref.png;
+	icon = "DynamicPasscodePref.png";
 	isController = 1;
 	label = "Dynamic Passcode";
     };

@@ -1,3 +1,4 @@
+ARCH = armv7 armv7s arm64
 include theos/makefiles/common.mk
 
 BUNDLE_NAME = DynamicPasscodePref
@@ -5,6 +6,7 @@ DynamicPasscodePref_FILES = DynamicPasscodePref.mm
 DynamicPasscodePref_INSTALL_PATH = /Library/PreferenceBundles
 DynamicPasscodePref_FRAMEWORKS = UIKit
 DynamicPasscodePref_PRIVATE_FRAMEWORKS = Preferences
+# IOKit is linked by LDFLAGS exported by makefile in the parent directory
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 

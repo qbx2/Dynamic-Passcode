@@ -9,8 +9,6 @@
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>General</string>
-            <key>footerText</key>
-            <string>test1234 the passcode will be 1234 with the pattern</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -23,19 +21,19 @@
 			<string>enabled</string>
 			<key>label</key>
 			<string>Enabled</string>
-        </dict>
-        <dict>
-            <key>cell</key>
-            <string>PSSecureEditTextCell</string>
-            <key>label</key>
-            <string>Pattern</string>
-            <key>defaults</key>
-            <string>me.funso.dynamicpasscode</string>
-            <key>key</key>
-            <string>pattern</string>
-            <key>noAutoCorrect</key>
-            <true/>
-        </dict>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSecureEditTextCell</string>
+			<key>label</key>
+			<string>Format</string>
+			<key>defaults</key>
+			<string>me.funso.dynamicpasscode</string>
+			<key>key</key>
+			<string>format</string>
+			<key>noAutoCorrect</key>
+			<true/>
+		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSButtonCell</string>
@@ -55,28 +53,30 @@
 				<string>Cancel</string>
 			</dict>
 		</dict>
-        <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>About</string>
-        </dict>
-        <dict>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>label</key>
-            <string>View Source Code</string>
-            <key>action</key>
-            <string>sourcecode</string>
-        </dict>
-        <dict>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>label</key>
-            <string>View E-Mail Address</string>
-            <key>action</key>
-            <string>mail</string>
-        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+			<key>footerText</key>
+			<string>by SunYeop Lee</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>View Source Code</string>
+			<key>action</key>
+			<string>viewsourcecode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>View E-Mail Address</string>
+			<key>action</key>
+			<string>viewemailaddress</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>Dynamic Passcode</string>
